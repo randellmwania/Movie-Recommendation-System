@@ -50,5 +50,3 @@ The primary goal of this project is to create a personalized movie recommendatio
 ### 🗒️Additional Notes:
 
 - There's a statement regarding the project's focus on enhancing user experience, satisfaction, and retention on a movie-streaming platform.
-
-This overview provides a snapshot of the recommendation system project, combining collaborative and content-based approaches to deliver personalized movie suggestions. For a more detailed understanding, further exploration of the provided code and any additional code or documentation would be necessary.
