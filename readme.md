@@ -32,20 +32,20 @@ The primary goal of this project is to create a personalized movie recommendatio
 
 #### Hybrid Recommendation System:
 
-- There's a mention of combining collaborative and content-based filtering. However, the actual hybrid system integration is not provided in the code snippet.
+-
 
 ### 💻User Interaction:
 
 - Users can input either a movie title or genre to receive personalized recommendations.
-- An example of a user entering a movie title or genre and receiving relevant movie suggestions is demonstrated.
+-
 
 ### 🧠Data Understanding:
 
-- A section on "data understanding for the project" is mentioned but not provided. Understanding the dataset is crucial for effective recommendation systems.
+-
 
 ### 🚒Deployment:
 
-- A brief explanation of the deployment process is given, involving exporting models, setting up APIs, hosting, and integration into an application.
+-
 
 ### 🗒️Additional Notes:
 
