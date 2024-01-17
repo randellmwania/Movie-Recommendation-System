@@ -49,4 +49,4 @@ The primary goal of this project is to create a personalized movie recommendatio
 
 ### 🗒️Additional Notes:
 
-- There's a statement regarding the project's focus on enhancing user experience, satisfaction, and retention on a movie-streaming platform.
+- The project's focus is enhancing user experience, satisfaction, and retention on a movie-streaming platform.
