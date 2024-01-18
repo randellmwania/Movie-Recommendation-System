@@ -1,3 +1,6 @@
+![image](https://github.com/randellmwania/Movie-Recommendation-System/assets/122815372/6d1dcbf3-10bd-4872-b782-2a99d6aeb1bd)
+
+
 ## MOVIE RECOMMENDATION SYSTEM 
 ## Overview
 This project consist of building a movierecommendation system. Our project aims to enhance customer satisfaction by providing personalized movie suggestions, fostering engagement, and driving user retention
