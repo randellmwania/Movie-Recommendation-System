@@ -60,5 +60,14 @@ We perfomed both univariate and bivariate analysis to uncover patterns in the da
 * Approach: Content-based filtering relies on movie attributes, such as genres and titles, to recommend similar items.
 * Implementation: A TF-IDF vectorizer is used to convert movie genres and titles into numerical representations. Cosine similarity is then calculated to find movies with similar content.
 ## Conclusion
+- Movie Recommendation System:
+The project focuses on building a movie recommendation system to address the challenge of information overload in the face of numerous movie choices.
+- Content-Based and Collaborative Filtering:
+Content-Based Filtering uses TF-IDF vectorization and cosine similarity to suggest movies based on user preferences and item characteristics.
+Collaborative filtering relies on user-item interactions, recommending items based on patterns and preferences observed by similar users.
+- Hybrid Recommendation System:
+The hybrid recommendation system integrates both collaborative and content-based filtering. It dynamically selects the approach based on user input, offering a well-rounded and personalized recommendation experience.
+- Evaluation Metrics:
+The collaborative filtering model using the Surprise library is evaluated using RMSE and MAE metrics across multiple folds, showcasing its predictive accuracy and efficiency.
 
  
