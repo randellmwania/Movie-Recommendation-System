@@ -12,9 +12,9 @@ The primary goal is to enhance the user experience by providing personalized mov
 ## Problem Statement
 With so many movie alternatives available nowadays, people find it difficult to choose films that suit their tastes due to information overload. Manual searches take a lot of time, which causes decision fatigue and lowers user engagement on a platform. A customized movie recommendation system that makes use of user-specific information and collaborative filtering methods will address this. By creating an effective recommendation engine that smoothly connects with user profiles, this project seeks to improve user satisfaction and retention by enabling a more efficient and enjoyable exploration of the extensive movie catalogs.
 ## Components
-* The [Jupyter Notebook](https://github.com/Wairimukimm/Customer-churn/blob/main/Untitled.ipynb) is the main deliverable. It contains the details of the approach taken and the methodology. It contains data cleaning, exploratory data analysis, data preparation for modelling and building the recommendation system.
+* The [Jupyter Notebook](https://github.com/randellmwania/Movie-Recommendation-System/blob/main/movie.ipynb) is the main deliverable. It contains the details of the approach taken and the methodology. It contains data cleaning, exploratory data analysis, data preparation for modelling and building the recommendation system.
 
-* The [Presentation](https://github.com/Wairimukimm/Customer-churn/blob/main/presentation.pdf) is the non technical Presentation of the project. It contains the objectives, problem statment, model evaluation, findings and recommendations.
+* The [Presentation](https://github.com/randellmwania/Movie-Recommendation-System/blob/main/presentation.pdf) is the non technical Presentation of the project. It contains the objectives, problem statment, model evaluation, findings and recommendations.
 
 * The dataset used for this project can be found in [Kaggle](https://grouplens.org/datasets/movielens/latest/)
 
@@ -59,15 +59,15 @@ We perfomed both univariate and bivariate analysis to uncover patterns in the da
 
 * Approach: Content-based filtering relies on movie attributes, such as genres and titles, to recommend similar items.
 * Implementation: A TF-IDF vectorizer is used to convert movie genres and titles into numerical representations. Cosine similarity is then calculated to find movies with similar content.
-## Conclusion
-- Movie Recommendation System:
-The project focuses on building a movie recommendation system to address the challenge of information overload in the face of numerous movie choices.
-- Content-Based and Collaborative Filtering:
-Content-Based Filtering uses TF-IDF vectorization and cosine similarity to suggest movies based on user preferences and item characteristics.
-Collaborative filtering relies on user-item interactions, recommending items based on patterns and preferences observed by similar users.
-- Hybrid Recommendation System:
-The hybrid recommendation system integrates both collaborative and content-based filtering. It dynamically selects the approach based on user input, offering a well-rounded and personalized recommendation experience.
-- Evaluation Metrics:
-The collaborative filtering model using the Surprise library is evaluated using RMSE and MAE metrics across multiple folds, showcasing its predictive accuracy and efficiency.
+
+## CONCLUSIONS
+
+-Movie Recommendation System: The project focuses on building a movie recommendation system to address the challenge of information overload in the face of numerous movie choices.
+
+-Content-Based and Collaborative Filtering: Content-Based Filtering uses TF-IDF vectorization and cosine similarity to suggest movies based on user preferences and item characteristics. Collaborative Filtering relies on user-item interactions, recommending items based on patterns and preferences observed from similar users.
+
+-Hybrid Recommendation System: The hybrid recommendation system integrates both collaborative and content-based filtering. It dynamically selects the approach based on user input, offering a well-rounded and personalized recommendation experience.
+
+-Evaluation Metrics: The collaborative filtering model using the Surprise library is evaluated using RMSE and MAE metrics across multiple folds, showcasing its predictive accuracy and efficiency.
 
  
