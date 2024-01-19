@@ -60,6 +60,19 @@ We perfomed both univariate and bivariate analysis to uncover patterns in the da
 * Approach: Content-based filtering relies on movie attributes, such as genres and titles, to recommend similar items.
 * Implementation: A TF-IDF vectorizer is used to convert movie genres and titles into numerical representations. Cosine similarity is then calculated to find movies with similar content.
 
+## EVALUATION
+Evaluating RMSE, MAE of algorithm SVD on 5 split(s).
+
+                  Fold 1  Fold 2  Fold 3  Fold 4  Fold 5  Mean    Std     
+RMSE (testset)    0.8659  0.8847  0.8789  0.8715  0.8665  0.8735  0.0073  
+MAE (testset)     0.6662  0.6780  0.6754  0.6704  0.6655  0.6711  0.0050  
+Fit time          1.09    0.98    0.94    1.21    1.02    1.05    0.10    
+Test time         0.09    0.09    0.65    0.11    0.10    0.21    0.22    
+RMSE: 0.6456
+MAE:  0.5006
+Test RMSE: 0.6456, Test MAE: 0.5006
+The RMSE measures the average magnitude of errors between predicted and actual ratings. A lower RMSE indicates better predictive performance.The MAE represents the average absolute errors between predicted and actual ratings. Similar to RMSE, a lower MAE indicates better accuracy.Fit time is the time taken to train the model on the training set. It represents the computational cost of training the algorithm.Test time is the time taken to make predictions on the test set. It reflects the computational cost of generating recommendations.the collaborative filtering algorithm (SVD) achieved relatively low RMSE and MAE, indicating good predictive accuracy
+
 ## CONCLUSIONS
 
 -Movie Recommendation System: The project focuses on building a movie recommendation system to address the challenge of information overload in the face of numerous movie choices.
