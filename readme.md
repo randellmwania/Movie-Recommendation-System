@@ -31,7 +31,7 @@ With so many movie alternatives available nowadays, people find it difficult to 
     
 ## To begin
 
-* Clone this [repository](https://github.com/Wairimukimm/Customer-churn)
+* Clone this [repository](https://github.com/randellmwania/Movie-Recommendation-System/tree/main)
 * Download the [Dataset](https://grouplens.org/datasets/movielens/latest/) used and install any technologies if necessary
 
 
