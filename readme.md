@@ -12,9 +12,9 @@ The primary goal is to enhance the user experience by providing personalized mov
 ## Problem Statement
 With so many movie alternatives available nowadays, people find it difficult to choose films that suit their tastes due to information overload. Manual searches take a lot of time, which causes decision fatigue and lowers user engagement on a platform. A customized movie recommendation system that makes use of user-specific information and collaborative filtering methods will address this. By creating an effective recommendation engine that smoothly connects with user profiles, this project seeks to improve user satisfaction and retention by enabling a more efficient and enjoyable exploration of the extensive movie catalogs.
 ## Components
-* The [Jupyter Notebook](https://github.com/Wairimukimm/Customer-churn/blob/main/Untitled.ipynb) is the main deliverable. It contains the details of the approach taken and the methodology. It contains data cleaning, exploratory data analysis, data preparation for modelling and building the recommendation system.
+* The [Jupyter Notebook](https://github.com/randellmwania/Movie-Recommendation-System/blob/main/movie.ipynb) is the main deliverable. It contains the details of the approach taken and the methodology. It contains data cleaning, exploratory data analysis, data preparation for modelling and building the recommendation system.
 
-* The [Presentation](https://github.com/Wairimukimm/Customer-churn/blob/main/presentation.pdf) is the non technical Presentation of the project. It contains the objectives, problem statment, model evaluation, findings and recommendations.
+* The [Presentation](https://github.com/randellmwania/Movie-Recommendation-System/blob/main/presentation.pdf) is the non technical Presentation of the project. It contains the objectives, problem statment, model evaluation, findings and recommendations.
 
 * The dataset used for this project can be found in [Kaggle](https://grouplens.org/datasets/movielens/latest/)
 
@@ -31,7 +31,7 @@ With so many movie alternatives available nowadays, people find it difficult to 
     
 ## To begin
 
-* Clone this [repository](https://github.com/Wairimukimm/Customer-churn)
+* Clone this [repository](https://github.com/randellmwania/Movie-Recommendation-System/tree/main)
 * Download the [Dataset](https://grouplens.org/datasets/movielens/latest/) used and install any technologies if necessary
 
 
@@ -59,6 +59,28 @@ We perfomed both univariate and bivariate analysis to uncover patterns in the da
 
 * Approach: Content-based filtering relies on movie attributes, such as genres and titles, to recommend similar items.
 * Implementation: A TF-IDF vectorizer is used to convert movie genres and titles into numerical representations. Cosine similarity is then calculated to find movies with similar content.
-## Conclusion
+
+## EVALUATION
+Evaluating RMSE, MAE of algorithm SVD on 5 split(s).
+
+                  Fold 1  Fold 2  Fold 3  Fold 4  Fold 5  Mean    Std     
+RMSE (testset)    0.8659  0.8847  0.8789  0.8715  0.8665  0.8735  0.0073  
+MAE (testset)     0.6662  0.6780  0.6754  0.6704  0.6655  0.6711  0.0050  
+Fit time          1.09    0.98    0.94    1.21    1.02    1.05    0.10    
+Test time         0.09    0.09    0.65    0.11    0.10    0.21    0.22    
+RMSE: 0.6456
+MAE:  0.5006
+Test RMSE: 0.6456, Test MAE: 0.5006
+The RMSE measures the average magnitude of errors between predicted and actual ratings. A lower RMSE indicates better predictive performance.The MAE represents the average absolute errors between predicted and actual ratings. Similar to RMSE, a lower MAE indicates better accuracy.Fit time is the time taken to train the model on the training set. It represents the computational cost of training the algorithm.Test time is the time taken to make predictions on the test set. It reflects the computational cost of generating recommendations.the collaborative filtering algorithm (SVD) achieved relatively low RMSE and MAE, indicating good predictive accuracy
+
+## CONCLUSIONS
+
+-Movie Recommendation System: The project focuses on building a movie recommendation system to address the challenge of information overload in the face of numerous movie choices.
+
+-Content-Based and Collaborative Filtering: Content-Based Filtering uses TF-IDF vectorization and cosine similarity to suggest movies based on user preferences and item characteristics. Collaborative Filtering relies on user-item interactions, recommending items based on patterns and preferences observed from similar users.
+
+-Hybrid Recommendation System: The hybrid recommendation system integrates both collaborative and content-based filtering. It dynamically selects the approach based on user input, offering a well-rounded and personalized recommendation experience.
+
+-Evaluation Metrics: The collaborative filtering model using the Surprise library is evaluated using RMSE and MAE metrics across multiple folds, showcasing its predictive accuracy and efficiency.
 
  
